@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat+Subrayada:wght@700&family=Roboto+Mono:wght@700&display=swap');
+html {
+
+    box-sizing : border-box;
+}
+
+body {
+    margin : 0;
+    min-height : 100vh ;
+    background:whitesmoke;
+    
+
+}
+
+h2{
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 1px;
+    font-size: 45px;
+}
+
+main{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#value{
+
+    margin-bottom: 29px;
+    font-size: 40px;
+    font-weight: 50px;
+    background: rgb(195, 238, 227);
+    padding:15px;
+    border-radius: 10px;
+}
+
+
+.container button{
+    font-size:25px ;
+    margin:20px;
+    border-radius: 5px;
+    border-color: turquoise;
+    outline:none;
+    padding:10px;
+
+}
+
+.container button:hover{
+    background:turquoise;
+    cursor: pointer;
+}
